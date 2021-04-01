@@ -5,7 +5,7 @@ from trainer import WassersteinTrainer
 if __name__ == "__main__":
     PARSER = argparse.ArgumentParser()
     PARSER.add_argument("--__epochs__", type=int, default=500, help="Number of Epochs for Training")
-    PARSER.add_argument("--__steps_per_epoch__", type=int, default=100, help="Number of Batches per Epoch")
+    PARSER.add_argument("--__steps_per_epoch__", type=int, default=10000, help="Number of Batches per Epoch")
     PARSER.add_argument("--__checkpoint_interval__", type=int, default=1, help="Interval Between Model Checkpoints")
     PARSER.add_argument("--__width__", type=int, default=512, help="Width of inputs")
     PARSER.add_argument("--__height__", type=int, default=512, help="Height of inputs")
