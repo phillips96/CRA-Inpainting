@@ -5,9 +5,6 @@ CVPR 2020 Oral. This is an implementation guided by the following:
  w/ VGG16 Patch Discriminator & 
 [ResidualPatchNet](https://github.com/wangyx240/High-Resolution-Image-Inpainting-GAN) - Attention / Residual Logic
 
-A future update will incorporate techniques from [GanInverse](https://arxiv.org/pdf/2004.00049.pdf) which will hopefully
-provide some more control to the output semantically, with little modification to the model architecture! 
-
 Please note the provided weights are an early sample from a model in training. This was trained for 3 days and didn't
 even make it through half of the places dataset! 
 
